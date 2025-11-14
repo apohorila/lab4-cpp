@@ -1,4 +1,3 @@
-//g++ compiler
 #pragma once 
 #include <shared_mutex>
 #include <string>
@@ -26,4 +25,5 @@ class DataStructure {
         void set2(int value);
         
         operator std::string() const;
+
 };
