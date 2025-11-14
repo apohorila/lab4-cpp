@@ -1,3 +1,4 @@
+//g++ compiler
 #include "threads.h"
 #include <iostream>
 #include <format>
@@ -22,4 +23,5 @@ int main() {
     funcForAllMethods(files31, files32, files33);
 
     return 0;
+
 }
